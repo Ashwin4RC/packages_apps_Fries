@@ -13,4 +13,10 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/misc_main">
 
+    <Preference
+        android:key="traffic"
+        android:fragment="com.potato.fries.fragments.Traffic"
+        android:icon="@drawable/ic_traffic"
+        android:title="@string/traffic_title" />
+
 </PreferenceScreen>
