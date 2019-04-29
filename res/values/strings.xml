@@ -373,5 +373,6 @@
     <string name="lockscreen_cover_filter_tint">Accent tinted</string>
     <string name="lockscreen_cover_filter_blur">Blur</string>
     <string name="lockscreen_cover_filter_grayblur">Grayscale and blurred</string>
+    <string name="album_art_title">Control lockscreen covers</string>
 
 </resources>
