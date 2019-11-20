@@ -34,4 +34,8 @@
     <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
     <string name="traffic_title">Traffic indicators</string>
     <string name="network_traffic_title">Network traffic</string>
+
+    <!-- Doze on Charge -->
+    <string name="doze_on_charge_title">Always On when charging</string>
+    <string name="doze_on_charge_summary">Show Always On Ambient display when charging</string>
 </resources>
