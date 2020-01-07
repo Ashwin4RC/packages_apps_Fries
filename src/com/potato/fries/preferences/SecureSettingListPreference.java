@@ -18,7 +18,7 @@ package com.potato.fries.preferences;
 
 import android.content.Context;
 import android.provider.Settings;
-import android.support.v7.preference.ListPreference;
+import androidx.preference.ListPreference;
 import android.util.AttributeSet;
 
 public class SecureSettingListPreference extends ListPreference {
@@ -52,7 +52,6 @@ public class SecureSettingListPreference extends ListPreference {
         return value == null ? defaultReturnValue : value;
     }
 
-    @Override
     protected boolean isPersisted() {
         return Settings.Secure.getString(getContext().getContentResolver(), getKey()) != null;
     }

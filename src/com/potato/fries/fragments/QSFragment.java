@@ -20,10 +20,10 @@ import android.os.Bundle;
 import android.content.Context;
 import android.preference.Preference.OnPreferenceChangeListener;
 import android.provider.SearchIndexableResource;
-import android.support.v7.preference.Preference;
-import android.support.v7.preference.PreferenceCategory;
-import android.support.v7.preference.PreferenceScreen;
-import android.support.v14.preference.PreferenceFragment;
+import androidx.preference.Preference;
+import androidx.preference.PreferenceCategory;
+import androidx.preference.PreferenceScreen;
+import androidx.preference.PreferenceFragment;
 
 import com.android.settings.R;
 import com.android.internal.logging.nano.MetricsProto;
@@ -78,6 +78,6 @@ public class QSFragment extends SettingsPreferenceFragment
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.FRIES;
+        return MetricsProto.MetricsEvent.POTATO;
     }
 }
